@@ -8,7 +8,7 @@
 void Storage::loadFile(std::vector<Task> &listOfTasks)
 {
     std::string title1, description1, author1;
-    std::fstream database("database.txt");
+    std::fstream database("../database.txt");
 
     std::string myString, line;
 
